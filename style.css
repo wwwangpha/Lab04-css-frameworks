@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bai Jamjuree", sans-serif;
+    text-decoration: none;
+}
+
+nav {
+    width: 100%;
+    height: 7vw;
+}
+
+.nav-container {
+    max-width: 90vw;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logonav {
+    width: 8vw;
+    object-fit: contain;
+}
+
+.nav-list a {
+    color: #000;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: all .55s ease;
+}
+
+.nav-list a:hover {
+    border-bottom: 1px solid gray;
+    color: #0ABDE3;
+}
+.nav-img {
+    width: 100%;
+    height: 20vw;
+}
+
+.img-container {
+    max-width: 90vw;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nav-card {
+    width: 100%;
+    height: 100vw;
+    margin-top: 20px;
+}
+
+.card-container{
+    max-width: 90vw;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+ .product-img img{
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+ }
+
+.product-con {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1.5rem;
+
+}
+
+.product-items {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: #82e4f7;
+    transition: 0.3s;
+}
+
+.product-items:hover {
+    transform: scale(1.03);
+}
+
+.product-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.profile-con {
+    width: 100%;
+    height: 100vw;
+}
+
+.image-container{
+    max-width: 90vw;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.profile {
+    width: 300px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-profile {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+.card-image img {
+    width: 100%;
+    height: 100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.profile-image img {
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    margin-top: -75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    border: 6px solid #0ABDE3;
+    transition-duration: 0.4s;
+    transition-property: transform;
+}
+
+.profile-image img:hover {
+    transform: scale(1.1);
+}
+
+.card-content h3{   
+    font-size: 25px;
+    text-align: center;
+}
+
+.card-content p {
+    font-size: 16px;
+    text-align: justify;
+    padding: 5px;
+}
+
+.icons {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.icons a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #0ABDE3;
+    padding: 0 14px;
+    transition-duration: 0.5s;
+    transition-property: transform;
+}
+
+.icons a:hover {
+    color: #000;
+    transform: scale(2);
+}
+
+.container-search{
+    margin-top: 20px;
+    width: 100%;
+    height: 5vw;
+}
+
+.search-con {
+    max-width: 90vw;
+    height: 100%;
+    margin: 0 auto;
+}
+.search-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.search-nav input {
+    width: 350px;
+    height: 40px;
+    margin-left: 25px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.pagination {
+    margin-top: 15px;
+}
